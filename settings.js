@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=KV9RCSCJ#g8HeKqUnS7NNvzd0h75dZieWS1fGDq9wBQwAPIUhnUY' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=uE0RASLI#wnyWjTrMFbnXMHYFD7m2wOi2iev_LAqP6VG4AalsQd8' : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '923288738955' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
@@ -19,7 +19,7 @@ OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
 AUTO_BLOCK:  process.env.AUTO_BLOCK  || false  ,        
 AUTO_VOICE:  process.env.AUTO_VOICE  || true  ,
-AUTO_STICKER: process.env.AUTO_STICKER || false  ,    
+AUTO_STICKER: process.env.AUTO_STICKER || true  ,    
 ANTI_BAD: process.env.ANTI_BAD || false  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
